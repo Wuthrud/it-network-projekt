@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt - Pojisteni</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+          <h1>PojištěníApp</h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="aktivni"><a href="index.html">Domů</a></li>
+            <li><a href="pojistenci.html">Pojištěnci</a></li>
+            <li><a href="nove-pojisteni.html">Nové pojištění</a></li>
+            <li><a href="prihlasit.html">Přihlásit</a></li>
+            <li><a class="reg-tlacitko" href="registrace.html">Registrace</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <article>
+
+      <header>
+        <h1>Pojištěnci</h1>
+      </header>
+
+      <div class="box-1">
+        <table  class="pojistenci-table">
+          <thead>
+            <tr>
+              <th>Jméno a Příjmení:</th>
+              <th>Telefon:</th>
+              <th>Věk:</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+        
+      </div>
+
+        <h1>Nový pojištěnec</h1>
+      
+      <div class="box-2">
+        <div class="grid">
+          <label for="jmeno">Jméno:</label>
+          <input type="text" id="jmeno" name="name" class="input-btn" placeholder="Jméno">
+          <label for="prijmeni">Příjmení:</label>
+          <input type="text" id="prijmeni" name="surname" class="input-btn" placeholder="Příjmení">
+        </div>
+        <div class="grid">
+          <label for="telefon">Telefon:</label>
+          <input type="text" id="telefon" name="phone" class="input-btn" placeholder="Telefon">
+          <label for="vek">Věk:</label>
+          <input type="text" id="vek" name="age" class="input-btn" placeholder="Věk">
+        </div>
+          
+        <img src="img/add-user.png" alt="add-user"/>
+      </div>
+
+      <div class="odeslat">
+      <input type="submit" id="send">
+      </div>
+
+    </article>
+
+
+    <footer>
+        Vytvořil &copy;Jaromír Protzner 2022 pro
+        <a href="https://itnetwork.cz">itnetwork.cz</a>
+    </footer>
+    <script src="JS/pojistenci.js"></script>
+    <script src="JS/zaznam.js"></script>
+    <script src="JS/obsluha.js"></script>
+
+</body>
+
+    
+</html>
